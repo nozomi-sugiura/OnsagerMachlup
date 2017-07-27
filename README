@@ -1,1 +1,20 @@
 Data assimilation codes for testing Onsager--Machlup functional are placed.
+
+
+
+4dvar/ 		  fortran codes for 4-dim variational data assimilation
+mcmc/ 		  fortran codes for Metropolis-adjusted Langevin algorithm
+hutch/ 		  fortran codes for 4-dim variational data assimilation with Hutchinson's trace estimtor
+ps/ 		  fortran codes for particle smoother
+
+
+		  eul/	  	  compile as Euler scheme
+		  eul_div/	  compile as Euler scheme with divergence term
+		  tra/	  	  compile as Trapezoidal scheme
+		  tra_div/	  compile as Trapezoidal scheme with divergence term
+
+om.tgz 		  tar-ball of all codes
+
+
+
+
