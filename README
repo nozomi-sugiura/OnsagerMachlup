@@ -4,7 +4,7 @@ Data assimilation codes for testing Onsager--Machlup functional are placed.
 
 4dvar/ 		  fortran codes for 4-dim variational data assimilation
 mcmc/ 		  fortran codes for Metropolis-adjusted Langevin algorithm
-hutch/ 		  fortran codes for 4-dim variational data assimilation with Hutchinson's trace estimtor
+hutch/ 		  fortran codes for 4-dim variational data assimilation with Hutchinson's trace estimator
 ps/ 		  fortran codes for particle smoother
 
 
