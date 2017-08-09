@@ -1,7 +1,8 @@
 # Makefile created by mkmf $Id: mkmf,v 14.0.2.1 2007/07/18 17:05:53 vb Exp $ 
 FC=mpif90
 LD=mpif90
-FFLAGS= -cpp -O5 -DREST -DREAD_OBS
+FFLAGS= -cpp -O5 -DREAD_OBS
+#FFLAGS= -cpp -O5 -DREST -DREAD_OBS
 
 #FFLAGS= -cpp -O5 -DREAD_FG -DREAD_OBS
 
