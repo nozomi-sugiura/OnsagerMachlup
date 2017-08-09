@@ -197,7 +197,7 @@ program    main
 
 
 
-  open(11,file="../eul000/fort.13")
+  open(11,file="../../4dvar/eul/fort.13")
   do it=0,nt
      read(11,'(3x,20(1x,e12.5))')  dum, x_fg2(:,it)
   enddo

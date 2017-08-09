@@ -125,9 +125,9 @@ program    main
   real(8) :: adxx(ii,0:nt)=0
   integer(kind=4) :: it, itr
   integer(kind=4) :: ntr  = 100000000
+# 129
 
-  integer(kind=4) :: itr0 =  0
-# 131
+  integer(kind=4) :: itr0 =  90000000
 
   real(8) :: q0, q1, logr, ratio
   real(8) ::  r=1.2d-2
@@ -177,14 +177,9 @@ program    main
 
   xx(:,:) = x_fg(:,:)
 
+# 194
 
-  write(fname,'(a9,i4.4)') "rest.dat_",rank
-  open(60,file=fname,form="unformatted")
-  read(60) xx(:,:)
-  close(60)
-  write(0,*) "restart of xx is read", rank
-  call sgrnd(2010+rank)
-# 196
+  call sgrnd(10+rank)
 
   ens_loop: do itr=1,ntr
      call func_dw(1.0d0,dw,ii*(nt+1))
